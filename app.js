@@ -518,6 +518,7 @@ for (var i in data[0].groups) {
 }
 
 let tbl = document.createElement('table');
+ tbl.setAttribute('data-aos', 'zoom-in-down');  // data-aos="zoom-in-down"
 // tbl.setAttribute('border', '1')
 tbl.innerHTML = `<tr>
 <th>Team</th>
