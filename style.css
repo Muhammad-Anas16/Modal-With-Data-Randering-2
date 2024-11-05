@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #2f2e38;
     position: relative;
 }
 
@@ -17,7 +18,24 @@ body {
 .modalHead {
     width: 70%;
     height: 60%;
-    background-color: #ffff;
+    background: url(./images/dark_img_1.jpg);
+}
+
+button {
+    width: 50px;
+    height: 30px;
+    margin: 7px 0;
+    margin-left: 90%;
+    border: 1px solid rgba(255, 255, 255, 0.192);
+    background-color: white;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+    border: 1px solid rgb(255, 252, 252);
+    border-radius: 20px 8px;
+    transition-duration: 2s;
 }
 
 .main {
@@ -36,22 +54,41 @@ body {
     border: 1px solid black;
     text-align: center;
     cursor: pointer;
+    background: linear-gradient(270deg, #71236C, black);
+    color: white;
+    font-weight: bolder;
+    font-style: italic;
 }
 
 table {
     width: 95%;
     height: 90%;
     cursor: pointer;
-    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.164);
+    border-radius: 5px;
     padding: 10px;
     margin: 0 auto;
     text-align: center;
+    color: rgba(253, 253, 253, 0.507);
 }
-th{
-    border: 1px solid black;
+
+table :hover {
+    color: rgb(255, 0, 0);
+    text-shadow: 3px 3px 5px rgba(128, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.288);
+    transition-duration: 1s;
+}
+
+th {
+    border: 1px solid rgba(0, 0, 0, 0.349);
     gap: 10px;
+    height: 50px;
+    /* background-color: rgba(255, 255, 255, 0.164);
+    border-radius: 5px; */
 }
+
 td {
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.349);
     gap: 10px;
+    height: 40px;
 }
